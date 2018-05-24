@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.staceya4.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".registrationActivity"
+            android:label="Registration" />
+        <activity android:name=".homepageActivity" />
+        <activity
+            android:name=".socialPlannerActivity"
+            android:label="Social Planner" />
+        <activity
+            android:name=".academicPlannerActivity"
+            android:label="Academic Planner" />
+        <activity
+            android:name=".profileActivity"
+            android:label="Profile Page" />
+        <activity
+            android:name=".taskListActivity"
+            android:label="Tasks To Complete" />
+        <activity
+            android:name=".ToDoListActivity"
+            android:label="To Do List" />
+        <activity android:name=".calenderActivity"
+            android:label="Calendar" />
+        <activity android:name=".mainMenuActivity" />
+        <activity android:name=".shoppingListActivity"
+            android:label="Shopping List" />
+        <activity android:name=".notesActivity"
+            android:label="Notes" ></activity>
+    </application>
+
+</manifest>
